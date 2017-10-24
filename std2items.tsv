@@ -1,0 +1,79 @@
+stmt	std_item	item	line
+BS	Cash & Equivalents	Cash & Equivalents	0.01
+BS	Short Term Investments	Short Term Investments	0.02
+BS	Total Receivables, Net	Receivables	0.03
+BS	Total Inventory	Inventory	0.04
+BS	Prepaid Expenses	Prepaid Expenses	0.05
+BS	Total Current Assets	Total Current Assets	0.1
+BS	Long Term Investments	Long Term Investments	0.2
+BS	Accumulated Depreciation, Total	Accumulated Depreciation	0.3
+BS	Goodwill, Net	Goodwill	0.4
+BS	Intangibles, Net	Intangibles	0.5
+BS	Property/Plant/Equipment, Total - Gross	Property/Plant/Equipment	0.6
+BS	Total Assets	Total Assets	1
+BS	Total Equity	Equity	1.1
+BS	Total Long Term Debt	Long Term Debt	1.2
+BS	Total Current Liabilities	Current Liabilities	1.3
+BS	Total Liabilities & Shareholders&#39; Equity	Total Liabilities and Equity	2
+BS	Total Liabilities		
+BS	Accrued Expenses		
+BS	Accounts Payable		
+BS	Accounts Receivable - Trade, Net		
+BS	Cash and Short Term Investments		
+BS	Common Stock, Total		
+BS	Current Port. of LT Debt/Capital Leases		
+BS	Deferred Income Tax		
+BS	Long Term Debt		
+BS	Minority Interest		
+BS	Notes Payable/Short Term Debt		
+BS	Other Current Assets, Total		
+BS	Other Current liabilities, Total		
+BS	Other Equity, Total		
+BS	Other Liabilities, Total		
+BS	Other Long Term Assets, Total		
+BS	Retained Earnings (Accumulated Deficit)		
+BS	Total Debt		
+BS	Treasury Stock - Common		
+CF	Net Income/Starting Line	Net Income	1
+CF	Depreciation/Depletion	Depreciation	1.1
+CF	Amortization	Amortization	1.2
+CF	Changes in Working Capital	Changes in Working Capital	1.3
+CF	Deferred Taxes	Deferred Taxes	1.4
+CF	Non-Cash Items	Other Non-Cash Operating	1.5
+CF	Cash from Operating Activities	Cash from Operating Activities	2
+CF	Cash from Investing Activities	Cash from Investing Activities	3
+CF	Cash from Financing Activities	Cash from Financing Activities	4
+CF	Foreign Exchange Effects	Foreign Exchange Effects	5
+CF	Net Change in Cash	Net Change in Cash	6
+CF	Cash Interest Paid, Supplemental	Interest Paid	6.1
+CF	Cash Taxes Paid, Supplemental	Taxes Paid	6.2
+CF	Capital Expenditures	Capital Expenditures	2.1
+CF	Financing Cash Flow Items	Financing Cash Flow	3.1
+CF	Issuance (Retirement) of Debt, Net	Change in Debt	3.2
+CF	Issuance (Retirement) of Stock, Net	Change in Stock	3.3
+CF	Other Investing Cash Flow Items, Total	Investing Cash Flow	2.2
+CF	Total Cash Dividends Paid	Paid Dividents	3.4
+IS	Total Revenue	Total Revenue	1
+IS	Cost of Revenue, Total	COGS	1.1
+IS	Gross Profit	Gross Profit	2
+IS	Selling/General/Admin. Expenses, Total	SG&A	2.1
+IS	Research & Development	R&D	2.2
+IS	Depreciation/Amortization	DD&A	2.3
+IS	Operating Income	Operating Income	3
+IS	Income Before Tax	Income Before Tax	4
+IS	Income After Tax	Income After Tax	5
+IS	Net Income Before Extra. Items	Net Income Before Extra. Items	6
+IS	Diluted EPS Excluding Extraordinary Items	EPS Excluding Extraordinaries	8.3
+IS	Net Income	Net Income	7
+IS	Diluted Normalized EPS	EPS	8.1
+IS	Dividends per Share - Common Stock Primary Issue	DPS	8.2
+IS	Total Common Shares Outstanding	Outstanding Shares	8
+IS	Diluted Weighted Average Shares		
+IS	Dilution Adjustment		
+IS	Income Available to Common Excl. Extra Items		
+IS	Income Available to Common Incl. Extra Items		
+IS	Other Operating Expenses, Total		
+IS	Other, Net		
+IS	Revenue		
+IS	Total Operating Expense		
+IS	Unusual Expense (Income)		
