@@ -1,5 +1,14 @@
 # HFaaS
 Financial Services App
+
+# Code Files
+- main.py: the logic
+- firm.py all methods of Firm class
+- firms.py
+- std2items.tsv from google standard sheets to our standard
+- Bug.md: all bugs to be resolved
+- downgoogle.py: code to download google finance
+
 _________
 ## Language
 Python 3.6+
@@ -23,7 +32,7 @@ ___________
 - Readin 1 Quarter (2017Q3) data from SEC Edgar:  
 ReadSEC(url="https://www.sec.gov/files/dera/data/financial-statement-data-sets/", file="2017q3.zip") -> Data.DataSet 
     - Download from: https://www.sec.gov/files/dera/data/financial-statement-data-sets/2017q3.zip
-    - Store it in proper format (To Discuss!!!)
+    - Store it in proper format (To Discuss!!!) 
     - Write it into DataBase format or BigData format (Extra feature)
 - Read in 7 files from finance.google and store it in proper format and write a program to do it automatically
 - Transform IBM from quarterly to standard format (as in google)

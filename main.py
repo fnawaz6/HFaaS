@@ -1,27 +1,3 @@
-## Change frame to report and make sure it does not conflict with sec
-'''
-Edgar statements:
-https://www.sec.gov/dera/data/financial-statement-data-sets.html
-sources
-http://rankandfiled.com/#/data/tickers
-Edgar Access Policy Page:
-https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm
-
-Edgar form-based (10-K, 10-K/A and 10-Q, 10-Q/A) index:
-https://www.sec.gov/Archives/edgar/full-index/2017/QTR3/form.idx
-
-Edgar XLXS for financial reports example (aapl):
-https://www.sec.gov/Archives/edgar/data/320193/000032019317000009/Financial_Report.xlsx
-
-
-
-with open('C:\\Github\\Firms\\firms.pkl', 'rb') as f:
-    firms = pickle.load(f)
-
-
-reproduce firms
-update tag2item
-'''
 import os, pandas as pd, numpy as np, pickle, zipfile, shutil, copy
 from datetime import datetime as dt
 os.chdir("C:\\Github\\HFaaS\\")
