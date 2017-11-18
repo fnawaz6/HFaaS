@@ -1,4 +1,3 @@
-#To read data sources and save
 import pandas as pd
 #################################################################
 def read_sec(path, cik2ticker, encoding="latin"): #-> pd.DataFrame
@@ -13,7 +12,7 @@ def read_sec(path, cik2ticker, encoding="latin"): #-> pd.DataFrame
     )
     pre = (
         pd.read_table(path+"pre.txt", encoding=encoding)
-        .query('plabel.isnull()')
+        .query('plabel.notnull()')
         #.query('stmt==["BS", "IS", "CF", "EQ", "CI"]')
     )
     #tag = pd.read_table (secPath+"tag.txt", encoding=encode)
@@ -63,10 +62,12 @@ def updateSECs (df=pd.DataFrame(), path="C:/Github/HFaaS/Data/SEC/", keep='last'
     ''' updates existing df of sec data (10-Q and 10_K) from zip files in path
     then archives the added zip files. If you want to add older files use keep="first" '''
     import zipfile, os, shutil
+    ### list all zipFiles, for each file, unzip it, read_sec to create sec file, and clean up
     newSecZipFiles = [f for f in sorted(os.listdir(path)) if f.endswith(".zip")]
     for zip in newSecZipFiles:
+        print(zip)
         try:
-            with zipfile.ZipFile(zip) as z:
+            with zipfile.ZipFile(path+zip) as z:
                 z.extractall(path+"temp/")
             new = read_sec(path+"temp/", cik2ticker)
             df = df.append(new)
