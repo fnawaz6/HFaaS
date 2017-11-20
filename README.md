@@ -1,18 +1,63 @@
 # HFaaS
-Financial Services App
+Hedge Fund As A Service
+_________________
+## Done so-far:
+- Read Financial Stamenets From Google Finance:
+    - Available Data: 2014Q1-2017Q3
+    - Module: downGoogle
+    - Purpose: to use a benchmark
+- Financial Statements from EDGAR (consolidated quarterly)
+    - Available Data: 2009Q1-2017Q3
+    - Module: sec2df
+    - Purpose: the main source of financial statements
+_____________________
+## To-Do
+- Read daily 10-K, 10-Q 
+    - Purpose: to read reports submitted on daily basis before going to quarterly consolidated
+    - url: 
+    - Tasks:
+        - Read one report: https://www.sec.gov/Archives/edgar/data/1416697/000112785517000297/0001127855-17-000297-index.htm
+        - Make a list of daily urls to read
+        - Read all latest reports since some date
+    - Read means reading data into dataframe, converting to our data base
 
-# Code Files
-- main.py: the logic
-- firm.py all methods of Firm class
-- firms.py
+- Make a mapping list of items from SEC to Google
+
+- Create Ready to go datasets:
+    - 10-K, 10-Q (raw data)
+    - A, Q (standard data)
+    - Covers 10 years and 8000 companies
+
+- Contact with Quandl and others to sell
+___________________
+## Code Files
+- Program main.py: the logic and test
+- Module sec2df.py: read SEC data
 - std2items.tsv from google standard sheets to our standard
-- Bug.md: all bugs to be resolved
-- downgoogle.py: code to download google finance
+- Module downGoogle.py: code to download google finance
+- File Readme.md: Contains to-do, Outputs, objectives, project management, Bugs, Data Sources, Scope, Iteration, ...
+___________________
+## Output Files
+
+___________
+## Input and Archive Files
+
+_____________
+Directories:
+- Data
+    - SEC
+        - Archive
+- Github: codes
+    - Main.py
+    - Sec2df.py
+    - Readme.md
+    - downGoogle.py
+- Trash
 
 _________
 ## Language
 Python 3.6+
-
+____________
 ## Objectives
 1. API call to fetch "distilled/processed" financial data about all US stocks
     * Daily Prices
@@ -38,5 +83,34 @@ ReadSEC(url="https://www.sec.gov/files/dera/data/financial-statement-data-sets/"
 - Transform IBM from quarterly to standard format (as in google)
 ___________
 ## Liscense
-All rights belongs to the contributors
+- All rights belongs to the contributors
+______________
+## Data Sources:
+- Accounting Datasets:
+https://www.sec.gov/dera/data/financial-statement-data-sets.html
 
+- Latest 10-Q reports on Edgar:
+https://www.sec.gov/cgi-bin/browse-edgar?&type=10-Q&count=100&action=getcurrent&output=atom
+
+- Accessing EDGAR data:
+https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm
+
+- CIK lookup:
+https://www.sec.gov/Archives/edgar/cik-lookup-data.txt
+
+- Researching Edgar:
+https://www.sec.gov/oiea/Article/edgarguide.html
+
+- Edgar Developer Resource page:
+https://www.sec.gov/developer
+
+- Google Finance:
+finance.google.com
+
+______________
+## Bugs
+- 
+___________________
+## Trash
+- centurylink cancellation confirmation: d75573679
+__________________

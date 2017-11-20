@@ -9,6 +9,8 @@ sec = updateSECs()
 
 a = read_sec ("C:\\Github\\HFaaS\\temp\\temp\\", cik2ticker)
 
+b = download_Financials_From_Google("MSFT", "NASDAQ")
+
 ######################### END of main program
 
 
