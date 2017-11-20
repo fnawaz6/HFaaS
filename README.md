@@ -44,15 +44,16 @@ ___________
 
 _____________
 Directories:
-- Data
-    - SEC
-        - Archive
-- Github: codes
+- DevCodes: all devcodes, shared on github
     - Main.py
     - Sec2df.py
     - Readme.md
     - downGoogle.py
-- Trash
+- Input
+    - SEC
+        - Archive
+- Output
+- Temp
 
 _________
 ## Language
