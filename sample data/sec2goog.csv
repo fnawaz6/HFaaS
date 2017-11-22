@@ -1,0 +1,11 @@
+stmt,std_item,item,line
+BS,Cash & Equivalents,Cash & Equivalents,0.01
+BS,Short Term Investments,Short Term Investments,0.02
+BS,"Total Receivables, Net",Receivables,0.03
+BS,Total Inventory,Inventory,0.04
+BS,Prepaid Expenses,Prepaid Expenses,0.05
+BS,Total Current Assets,Total Current Assets,0.1
+BS,Long Term Investments,Long Term Investments,0.2
+BS,"Accumulated Depreciation, Total",Accumulated Depreciation,0.3
+BS,"Goodwill, Net",Goodwill,0.4
+BS,"Intangibles, Net",Intangibles,0.5

@@ -1,0 +1,11 @@
+ticker,report,stmt,item,stamp,value,uom,cik,tag,date,qtrs
+EDGR,10-K,BS,"Accounts receivable, less allowance of $312 at December 31, 2008 and $350 at March 31, 2009",20084,2570000.0,USD,1080224,AccountsNotesAndLoansReceivableNetCurrent,20081231,0
+EDGR,10-K,BS,"Assets, Total",20084,13006000.0,USD,1080224,Assets,20081231,0
+EDGR,10-K,BS,"Assets, Current, Total",20084,5106000.0,USD,1080224,AssetsCurrent,20081231,0
+EDGR,10-K,CF,"Cash and Cash Equivalents, at Carrying Value, Beginning Balance",20074,3568000.0,USD,1080224,CashAndCashEquivalentsAtCarryingValue,20071231,0
+EDGR,10-K,CF,"Cash and Cash Equivalents, at Carrying Value, Ending Balance",20074,3568000.0,USD,1080224,CashAndCashEquivalentsAtCarryingValue,20071231,0
+EDGR,10-K,CF,"Cash and Cash Equivalents, at Carrying Value, Beginning Balance",20084,2062000.0,USD,1080224,CashAndCashEquivalentsAtCarryingValue,20081231,0
+EDGR,10-K,CF,"Cash and Cash Equivalents, at Carrying Value, Ending Balance",20084,2062000.0,USD,1080224,CashAndCashEquivalentsAtCarryingValue,20081231,0
+EDGR,10-K,BS,"Common stock, $0.01 par value, 50,000,000 authorized at December 31, 2008 and March 31, 2009, 27,554,713 shares issued and 26,505,818 shares outstanding at December 31, 2008 and 27,783,343 shares issued and 26,739,210 shares outstanding at March 31, 2009",20084,276000.0,USD,1080224,CommonStockValue,20081231,0
+EDGR,10-K,BS,"Liabilities, Total",20084,9302000.0,USD,1080224,Liabilities,20081231,0
+EDGR,10-K,BS,"Liabilities and Stockholders' Equity, Total",20084,13006000.0,USD,1080224,LiabilitiesAndStockholdersEquity,20081231,0
